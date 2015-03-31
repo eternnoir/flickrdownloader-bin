@@ -1,6 +1,6 @@
 # Flickr Downloader
 
-An Flickr download tool write by golang.It will download photos from flicker with origin size.
+A Flickr download tool write by golang.It will download photos from flicker with origin size.
 
 ## How to use
 
