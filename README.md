@@ -10,6 +10,12 @@ $ flickrdownloader-bin -u <WhichFlickrUrlYouWantDownload> -m <MaxPagesToDownload
 * -u : what url you want to download.
 * -m : how many pages you want to download.
 * -p : what path you want to save photos.Default is ***/tmp***
+* -s : image size. Default is "o" means origin size.
+	* o : Original
+	* l : Large
+	* m : Medium 500
+	* z : Medium 640
+	* c : Medium 800
 * -d : show debug infomation.Default is ***false***
 
 ### Example1
