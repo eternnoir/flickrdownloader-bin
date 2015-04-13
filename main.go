@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	VERSION := "v0.2"
 	urlPtr := flag.String("u", "", "Photo Set Url")
 	pathPtr := flag.String("p", "/tmp", "Download path.")
 	maxPagePtr := flag.Int("m", 99999, "Max Pages to Download")
@@ -15,6 +16,7 @@ func main() {
 	sizePtr := flag.String("s", "o", "What image size you want to download.'o' is means origin.'l' means large.")
 	flag.Parse()
 	if len(*urlPtr) < 1 {
+		fmt.Println("FlickrDownloader " + VERSION)
 		fmt.Println("Url can not be empty.Use -h to get some help.")
 		return
 	}
