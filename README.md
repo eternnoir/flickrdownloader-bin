@@ -22,7 +22,7 @@ $ flickrdownloader-bin -u <WhichFlickrUrlYouWantDownload> -m <MaxPagesToDownload
 	* c : Medium 800
 * -d : show debug infomation.Default is ***false***
 
-### Example1
+### Examples
 
 Download user marksein's photos only two pages.
 
@@ -30,3 +30,8 @@ Download user marksein's photos only two pages.
 flickrdownloader-bin -u https://www.flickr.com/photos/marksein/ -m 2
 ```
 
+Download large size set's photo to /home/user/photo.
+
+```
+./flickrdownloader-bin-v0.2-amd64 -u https://www.flickr.com/photos/taisg/sets/72157649581313124 -p /home/frank/tmp -s l       
+```
