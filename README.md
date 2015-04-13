@@ -2,6 +2,10 @@
 
 A Flickr download tool write by golang.It will download photos from flicker with origin size.
 
+## Download
+
+You can download binary file at [Release Page](https://github.com/eternnoir/flickrdownloader-bin/releases).
+
 ## How to use
 
 ```
