@@ -33,5 +33,5 @@ flickrdownloader-bin -u https://www.flickr.com/photos/marksein/ -m 2
 Download large size set's photo to /home/user/photo.
 
 ```
-./flickrdownloader-bin -u https://www.flickr.com/photos/taisg/sets/72157649581313124 -p /home/frank/tmp -s l       
+./flickrdownloader-bin -u https://www.flickr.com/photos/taisg/sets/72157649581313124 -p /home/user/photo -s l       
 ```
